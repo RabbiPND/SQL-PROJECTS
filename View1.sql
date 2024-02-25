@@ -1,0 +1,7 @@
+SELECT TOP (100) [continent]
+      ,[location]
+      ,[date]
+      ,[population]
+      ,[new_vaccinations]
+      ,[RollingPeopleVaccinated]
+  FROM [PortfolioProject].[dbo].[PercenPopulationVaccinated]
